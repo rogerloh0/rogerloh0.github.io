@@ -10,7 +10,7 @@ layout: feed
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://rogerloh0.github.io/blog</id>
 	<author>
-		<name>Roger Loh</name>
+		<name>Roger Lo</name>
 		<email>rogerloh4.0@gmail.com</email>
 	</author>
 
