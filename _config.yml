@@ -1,4 +1,5 @@
 name: Roger Lo's World
 markdown: kramdown
 
-permalink: /:category/:year/:month/:day/:title
+permalink: /blogs/:year/:month/:day/:title
+permalink: /studynotes/:year/:month/:day/:title
