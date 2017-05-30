@@ -1,0 +1,27 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Roger's Study Note</title>
+	<link href="http://rogerloh0.github.io/studynote/atom.xml" rel="self"/>
+	<link href="http://rogerloh0.github.io/studynote"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://rogerloh0.github.io/studynote</id>
+	<author>
+		<name>Roger Lo</name>
+		<email>rogerloh4.0@gmail.com</email>
+	</author>
+
+	{% for studynote in site.studynotes %}
+		<entry>
+			<title>{{ studynote.title }}</title>
+			<link href="http://rogerloh0.github.io{{ post.url }}"/>
+			<updated>{{ studynote.date | date_to_xmlschema }}</updated>
+			<id>http://rogerloh0.github.io{{ studynote.id }}</id>
+			<content type="html">{{ studynote.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
