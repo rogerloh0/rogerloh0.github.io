@@ -1,0 +1,28 @@
+---
+layout: page
+title: Krax
+---
+
+<div class="krax-expo">
+  <div class="krax-expo-list">
+    {% for tag in site.krax %}
+    <a href="#{{ krax[0] | slugify }}" class="post-krax">{{ krax[0] }}</a>
+    {% endfor %}
+  </div>
+  <hr/>
+  <div class="krax-expo-section">
+    {% for tag in site.tags %}
+    <h2 id="{{ krax[0] | slugify }}">{{ krax[0] }}</h2>
+    <ul class="krax-expo-posts">
+      {% for post in tag[1] %}
+        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+      <li>
+        {{ post.title }}
+      <small class="post-date">{{ post.date | date_to_string }}</small>
+      </li>
+      </a>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>
