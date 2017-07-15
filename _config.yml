@@ -1,10 +1,10 @@
 # Site Info
 title: Roger Lo's Blog
-tagline: 'A Jekyll theme based on Lanyon'
-description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
+tagline: 'Research, Design, Create&emsp;研究、設計、創造'
+description: 
 baseurl: 
 url: http://rogerloh0.github.io
-logo: 
+logo: '/public/logo.png'
 
 # Site configurations
 plugins:
@@ -25,7 +25,7 @@ version: 1.0.0
 # About/contact
 author:
   name: Roger Lo
-  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
+  description: A passionate <strong>maker and researcher</strong> trying to make his mark. <br>這是我的個人部落格，會不定期更新學術新知，也會將連載小說移植過來
   gravatar: eede4b1ea3b604c9c06ea34cc0e971d8 # md5 hash of your email address
   contact:
     linkedin:  https://www.linkedin.com/in/roger-lo-48477953/
@@ -44,27 +44,18 @@ nav:
     - '/blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
-  Study Note:
-    - '/studynote/'
-    - { Subjects: '/studynote/subjects'}
-  Novel:
-    - '/novel/'
-    - { Krax: '/novel/krax/'}
-    - { Transition: '/novel/transition/'}
   Github Project: 
     - 'http://rogerloh0.github.io/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
-subject_page: '/studynote/subjects/'
-novel_page: '/novel/'
 #hero:
 #  image: /public/img/we_will_be_giants_by_yalestewart.jpg
 #  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
 
 # Puglins
 mathjax: true # whether support mathjax
-google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+google_analytics_token: 'UA-102388379-1' # leave blank if you don't want google analytics
+disqus_short_name: 'roger-los-blog-1' # leave blank if you don't want disqus
 
