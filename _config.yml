@@ -25,7 +25,7 @@ version: 1.0.0
 # About/contact
 author:
   name: Roger Lo
-  description: A passionate <strong>maker and researcher</strong> trying to make his mark. <br>這是我的個人部落格，會不定期更新學術新知，也會將連載小說移植過來
+  description: A passionate <strong>maker and researcher</strong> trying to make his mark in the world. <br>這是我的個人部落格，會不定期更新學術新知，也會將連載小說移植過來
   gravatar: eede4b1ea3b604c9c06ea34cc0e971d8 # md5 hash of your email address
   contact:
     linkedin:  https://www.linkedin.com/in/roger-lo-48477953/
